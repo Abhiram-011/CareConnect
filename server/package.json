@@ -1,0 +1,30 @@
+{
+  "name": "careconnect-server",
+  "version": "1.0.0",
+  "description": "CareConnect Backend Server - Module 1: User & Donor Management",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test:module1": "node test-module1.js",
+    "test:module2": "node test-module2.js",
+    "test:module3": "node test-module3.js",
+    "test:module4": "node test-module4.js",
+    "test:module5": "node test-module5.js",
+    "test:module6": "node test-module6.js",
+    "test:all": "node test-all-modules.js",
+    "seed:admin": "node seed-admin.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5",
+    "multer": "^2.4.0",
+    "nodemailer": "^10.0.16"
+  }
+}
